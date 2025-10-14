@@ -29,4 +29,6 @@ if __name__ == '__main__':
   """)
   print (colored('Created Fingerprints',"green"))
 
-  print (colored('Done',"green"))
+  print (colored('Done',"green"))\
+    
+# this file is for restting the database.

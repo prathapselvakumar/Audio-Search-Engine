@@ -152,3 +152,11 @@ if __name__ == '__main__':
   else:
     msg = 'Not anything matching'
     print (colored(msg, 'red'))
+
+
+    # This file is for listening to the audio and matching it with the database. 
+
+    # Audio will be played in three two one 
+
+    # I played the audio 1.wav and it matched with 1.wav !!!!]
+    
