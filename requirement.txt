@@ -1,0 +1,7 @@
+numpy
+pyaudio
+pydub
+termcolor
+matplotlib
+scipy
+pylint
