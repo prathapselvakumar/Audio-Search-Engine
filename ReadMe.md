@@ -129,19 +129,19 @@ Play one of the indexed tracks near the microphone and run:
 python listen.py --seconds 10
 ```
 
-If `--seconds` is omitted, the recording length defaults to 10 seconds. Example output:
+If `--seconds` is omitted, the recording length defaults to 10 seconds. A successful match prints the matched file name and its database id:
 
 ```text
 Listening....
 Okey, enough
-Took 438272 samples
-I found 1186 hash in db
-Totally found 1186 hash
- => song: 1.wav (id=1)
-    offset: 412 (19 secs)
+Took <samples> samples
+I found <hits> hash in db
+Totally found <hits> hash
+ => song: <file name> (id=<song id>)
+    offset: <frames> (<seconds> secs)
 ```
 
-The sample counts and offsets above are illustrative and will differ between runs.
+If no fingerprints match, the script prints `Not anything matching`.
 
 ## Configuration
 
@@ -176,5 +176,3 @@ The project structure and much of the code are adapted from [audio-fingerprint-i
 Drevo, W. (2013). *Dejavu: Audio fingerprinting and recognition in Python* [Computer software]. GitHub. https://github.com/worldveil/dejavu
 
 Wang, A. (2003). An industrial-strength audio search algorithm. In *Proceedings of the 4th International Conference on Music Information Retrieval (ISMIR 2003)*. https://doi.org/10.5281/zenodo.1416340
-#   A u d i o - S e a r c h - E n g i n e  
- 
